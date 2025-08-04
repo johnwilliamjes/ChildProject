@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="9.407282">
+<testsuite name="parabank-login.spec.ts" timestamp="2025-08-03T18:55:54.686Z" hostname="chromium" tests="5" failures="0" skipped="0" time="24.312" errors="0">
+<testcase name="ParaBank Login Tests - Child Project › should successfully login to ParaBank with demo credentials" classname="parabank-login.spec.ts" time="3.191">
+</testcase>
+<testcase name="ParaBank Login Tests - Child Project › should show error for invalid credentials" classname="parabank-login.spec.ts" time="4.867">
+</testcase>
+<testcase name="ParaBank Login Tests - Child Project › should navigate to different sections from dashboard" classname="parabank-login.spec.ts" time="8.647">
+</testcase>
+<testcase name="ParaBank Login Tests - Child Project › should logout successfully" classname="parabank-login.spec.ts" time="4.021">
+</testcase>
+<testcase name="ParaBank Login Tests - Child Project › should take screenshots during flow" classname="parabank-login.spec.ts" time="3.586">
+</testcase>
+</testsuite>
+</testsuites>

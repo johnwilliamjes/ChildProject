@@ -1,0 +1,35 @@
+{
+  "name": "child-project-tests",
+  "version": "1.0.0",
+  "description": "Child project using the Playwright monorepo tarball for testing",
+  "main": "index.js",
+  "scripts": {
+    "install:framework": "npm install ../parent-project-typescript/playwright-parent-typescript-1.0.0.tgz",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:ci": "npx playwright test --reporter=html,junit",
+    "install:browsers": "npx playwright install",
+    "install:chromium": "npx playwright install chromium",
+    "ci:setup": "npm ci && npx playwright install --with-deps",
+    "ci:test": "npm run test:ci"
+  },
+  "dependencies": {
+    "playwright-parent-typescript": "file:../parent-project-typescript/playwright-parent-typescript-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "child-project"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
